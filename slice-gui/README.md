@@ -1,5 +1,5 @@
 # SLICE Designer
-SLICE Designer is a platform for writing SLICE chemistries and for generating molecules. This repository does not contain the piece of code that allow to generate molecules (it is located in the repository i-slice-engine).
+SLICE Designer is a platform for writing SLICE chemistries and for generating molecules. This repository does not contain the piece of code that allow to generate molecules (it is located in the repository slice-engine).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/victoriendelannee/slice-app/blob/main/electron/Icon-white/icon.png">

@@ -96,7 +96,7 @@ window.atomPropertyEncoding = {
 	"Negative Charge": "-",
 	"Positive Charge": "+",
 	"Connectivity": "X",
-	//"Degree": "D",
+	"Degree": "D",
 	"Pi Electron Count": "e",
 	"Hybridization Number": "^",
 	"Total Hydrogen Count": "H",

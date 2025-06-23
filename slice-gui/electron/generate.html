@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Generate molecules</title>
+  <style>
+    .button{
+            width: 100%;
+            border-radius: 4px;
+        }
+  </style>
+
+<script src="generate.js"></script>
+<script type="module" src="module_loader.js"></script>
+</head>
+
+<body>
+
+  <div class="property">
+    <form method="post" id="generateProperties">
+       <!--<center><h3><b>Generate molecules</b></h3></center>--> 
+        </br>
+        <font size="2"> 
+        <label for="name">Select a set of BBs:</label>
+        </font> 
+        <button type="button" onclick="chooseFile()">Choose a file </button>
+        <text id="filelink"></text>
+       <!-- <input type="file" name="fileupload" value="fileupload" accept=".csv,.txt,.smi" id="fileupload">-->
+        </br>
+        </br>
+        <text id="buildingblock" style="color:blue"></text>
+        </br>
+        <button type="button" class= "button" onclick="countCompatibleBB()">Display the number of compatible BBS</button>
+        </br>
+      </br>
+        <right>
+          <font size="2"> 
+              <b>Options:</b>
+          </font>
+          </right>
+        </br>
+        <left>
+        <input type="checkbox" id="option1" name="option1" value="rating">
+        <font size="2">      
+        <label for="option1"> Replace all "lower rating strongly/severely" by "kill". </label><br>
+        
+        </font> 
+
+        <input type="checkbox" id="option2" name="option2" value="hideghost">
+        <font size="2">      
+        <label for="option2"> Hide all ghost molecules. </label><br>
+      </font> 
+
+        <input type="checkbox" id="option3" name="option3" value="inchikey">
+        <font size="2">      
+        <label for="option3"> Print only InChIKey of products </label><br>
+      </font> 
+        </left>
+        </br>
+      <button type="button" class= "button" onclick="generateMolecules()">Generate molecules</button>
+      </br>
+    </br>
+        <center>
+        <button type="button" class= "button" onclick="ClosegenerateMolecules()">Close</button>
+        </center>
+    </form>
+</div>
+</body>
+</html>

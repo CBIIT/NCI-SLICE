@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.1.2",
+    "electron-forge": "^5.2.4"
+  },
+  "build": {
+    "extraResources": [
+      {
+        "from": "jar/SAVI-1.0.0-jar-with-dependencies.jar",
+        "to": "resources/SAVI-1.0.0-jar-with-dependencies.jar"
+      }
+    ]
+  }
+}

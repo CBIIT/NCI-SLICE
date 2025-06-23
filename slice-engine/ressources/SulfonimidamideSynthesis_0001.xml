@@ -1,0 +1,126 @@
+<transforms>
+	<transform id="0001" name="Sulfonimidamide Synthesis from Aryl bromides and secondary amines" version="1">
+		<history>
+			<modification id="0" type="written" date="2020-02-27">
+				<authors>
+					<author name="N. Tarasova"/>
+				</authors>
+			</modification>
+
+		</history>
+		<references>
+			<reference id="0">
+				<authors>
+					<author name="Davies TQ"/>
+					<author name="Hall A"/>
+					<author name="Willis M."/>
+				</authors>
+				<title>One-Pot, Three-Component Sulfonimidamide Synthesis Exploiting the Sulfinylamine Reagent N-Sulfinyltritylamine, TrNSO.</title>
+				<journal>Angew Chem Int Ed Engl.</journal>
+				<year>2017</year>
+			</reference>
+			<reactions>
+				<reaction id="1">
+
+					    O  R2
+					    || |
+					Ar--S--N     ====>     Ar--X   +   R1--NH--R2  
+					    || |
+					    O  R1
+
+								   X=Cl,Br,I
+				</reaction>
+			</reactions>
+		</references>
+		<setup>
+			<yield> "45-90%" </yield>
+			<reliability> "HIGH" </reliability>
+			<reputation> "GOOD" </reputation>
+			<homoselectivity> "produces 1:1 mixture of diastereomers" </homoselectivity>
+			<heteroselectivity> "GOOD" </heteroselectivity>
+			<orientationalSelectivity> "" </orientationalSelectivity>
+			<conditionSelectivity> "" </conditionSelectivity>
+			<thermodynamics> "" </thermodynamics>
+		</setup>
+		<reactions>
+			<reaction subtype="1">
+				<reactants>
+					<reactant id="left">
+						<smarts>[c:1][Cl,Br,I:2]</smarts>
+						<logic>
+							if molecule has ketone or aldehyde offpath then kill
+							if molecule has carboxyl or ester offpath then kill
+							if molecule has amines offpath then kill
+							if molecule has chlorine or iodine or bromine offpath then kill
+							#CONDITIONS (CH3)2CHMgCl · LiCl (Turbo Grinard) + halide block, 0oC; TrNSO, (CH3)3COCl, TEA, + amine block
+						</logic>
+					</reactant>
+					<reactant id="right">
+						<smarts>[N;z0;H1:3]</smarts>
+						<logic>
+							if molecule has ketone or aldehyde offpath then kill
+							if molecule has carboxyl or ester offpath then kill
+							if molecule has amines offpath then kill
+							if molecule has chlorine or iodine or bromine offpath then kill
+							#CONDITIONS (CH3)2CHMgCl · LiCl (Turbo Grinard) + halide block, 0oC; TrNSO, (CH3)3COCl, TEA, + amine block
+						</logic>
+				</reactant>
+				</reactants>
+				<products>
+					<product id="1">
+						<smarts>[c:1]S(=O)(=[N;H1])[N;H0;z1:3]</smarts>
+						<logic>
+							if molecule has ketone or aldehyde offpath then kill
+							if molecule has carboxyl or ester offpath then kill
+							if molecule has amines offpath then kill
+							if molecule has chlorine or iodine or bromine offpath then kill
+							#CONDITIONS (CH3)2CHMgCl · LiCl (Turbo Grinard) + halide block, 0oC; TrNSO, (CH3)3COCl, TEA, + amine block
+						</logic>
+					</product>
+				</products>
+				<conditions properties="(CH3)2CHMgCl · LiCl (Turbo Grinard) + halide block, 0oC; TrNSO, (CH3)3COCl, TEA, + amine block"/>
+				<actualConditions properties=""/>
+			</reaction>
+			<reaction subtype="2">
+				<reactants>
+					<reactant id="left">
+						<smarts>[c:1][Cl,Br,I:2]</smarts>
+						<logic>
+							if molecule has ketone or aldehyde offpath then kill
+							if molecule has carboxyl or ester offpath then kill
+							if molecule has amines offpath then kill
+							if molecule has chlorine or iodine or bromine offpath then kill
+							#CONDITIONS (CH3)2CHMgCl · LiCl (Turbo Grinard) + halide block, 0oC; TrNSO, (CH3)3COCl, TEA, + amine block
+						</logic>
+					</reactant>
+					<reactant id="right">
+						<smarts>[N;z0;H2:3]</smarts>
+						<logic>
+							if molecule has ketone or aldehyde offpath then kill
+							if molecule has carboxyl or ester offpath then kill
+							if molecule has amines offpath then kill
+							if molecule has chlorine or iodine or bromine offpath then kill
+							#CONDITIONS (CH3)2CHMgCl · LiCl (Turbo Grinard) + halide block, 0oC; TrNSO, (CH3)3COCl, TEA, + amine block
+						</logic>
+				</reactant>
+				</reactants>
+				<products>
+					<product id="1">
+						<smarts>[c:1]S(=O)([N;H2])=[N;H1;z1:3]</smarts>
+						<logic>
+							if molecule has ketone or aldehyde offpath then kill
+							if molecule has carboxyl or ester offpath then kill
+							if molecule has amines offpath then kill
+							if molecule has chlorine or iodine or bromine offpath then kill
+							#CONDITIONS (CH3)2CHMgCl · LiCl (Turbo Grinard) + halide block, 0oC; TrNSO, (CH3)3COCl, TEA, + amine block
+						</logic>
+					</product>
+
+				</products>
+				<conditions properties="(CH3)2CHMgCl · LiCl (Turbo Grinard) + halide block, 0oC; TrNSO, (CH3)3COCl, TEA, + amine block"/>
+				<actualConditions properties=""/>
+			</reaction>
+		</reactions>
+	</transform>
+</transforms>
+

@@ -1,3 +1,6 @@
 [submodule "slice-gui"]
 	path = slice-gui
 	url = https://github.com/incicadd/i-slice-gui.git
+[submodule "slice-engine"]
+	path = slice-engine
+	url = https://github.com/incicadd/i-slice-engine.git

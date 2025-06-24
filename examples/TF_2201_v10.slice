@@ -1,0 +1,372 @@
+<transforms>
+  <transform id="2201" name="Fused Arylpyridines via o-Aminocarbonyls" version="10">
+    <history>
+      <modification id="0" type="created" date="2022-09-01">
+        <authors>
+          <author name="Philip Judson" />
+        </authors>
+      </modification>
+      <modification id="1" type="modified" date="2022-11-18">
+        <authors>
+          <author name="Philip Judson" />
+        </authors>
+      </modification>
+      <modification id="2" type="modified" date="2023-03-30">
+        <authors>
+          <author name="Philip Judson" />
+        </authors>
+      </modification>
+      <modification id="3" type="modified" date="2023-04-12">
+        <authors>
+          <author name="Philip Judson" />
+        </authors>
+      </modification>
+      <modification id="4" type="modified" date="2023-04-17">
+        <authors>
+          <author name="Philip Judson" />
+        </authors>
+      </modification>
+      <modification id="5" type="modified" date="2023-04-25">
+        <authors>
+          <author name="Stefi Nouleho" />
+        </authors>
+      </modification>
+      <modification id="6" type="modified" date="2023-06-05">
+        <authors>
+          <author name="Olga Grushin" />
+        </authors>
+      </modification>
+      <modification id="7" type="modified" date="2023-06-09">
+        <authors>
+          <author name="Olga Grushin" />
+        </authors>
+      </modification>
+      <modification id="8" type="modified" date="2023-06-26">
+        <authors>
+          <author name="Olga Grushin" />
+        </authors>
+      </modification>
+      <modification id="9" type="modified" date="2023-06-30">
+        <authors>
+          <author name="Olga Grushin" />
+        </authors>
+      </modification>
+    </history>
+    <setup>
+      <yield>"good"</yield>
+      <reliability>"good"</reliability>
+      <reputation>"excellent"</reputation>
+      <homoselectivity>"poor"</homoselectivity>
+      <heteroselectivity>"good"</heteroselectivity>
+      <orientationalSelectivity>"N.A."</orientationalSelectivity>
+      <conditionFlexibility>"excellent"</conditionFlexibility>
+      <thermodynamics>"good"</thermodynamics>
+    </setup>
+    <bibliography>
+      <reference id="0">
+        <authors>
+          <author name="P. Friedlander" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Ber."</journal>
+        <year>1882</year>
+        <volume>"15"</volume>
+        <part>"undefined"</part>
+        <pages>"2572"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="1">
+        <authors>
+          <author name="C. Cheng " />
+          <author name="S.Yan" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Org. Reactions"</journal>
+        <year>1982</year>
+        <volume>"28"</volume>
+        <part>"undefined"</part>
+        <pages>"37"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="2">
+        <authors>
+          <author name="F. W." />
+          <author name="Bergstrom" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Chem. Rev."</journal>
+        <year>1944</year>
+        <volume>"35"</volume>
+        <part>"undefined"</part>
+        <pages>"77"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="3">
+        <authors>
+          <author name="E. A. Fehnel" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"J. Het. Chem."</journal>
+        <year>1967</year>
+        <volume>"4"</volume>
+        <part>"undefined"</part>
+        <pages>"565"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="4">
+        <authors>
+          <author name="O. Stark" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Ber."</journal>
+        <year>1907</year>
+        <volume>"40"</volume>
+        <part>"undefined"</part>
+        <pages>"3425"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="5">
+        <authors>
+          <author name="W. Borsche" />
+          <author name="F. Sinn" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Annalen."</journal>
+        <year>1939</year>
+        <volume>"538"</volume>
+        <part>"undefined"</part>
+        <pages>"283"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="6">
+        <authors>
+          <author name="G.Kempter" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Ber."</journal>
+        <year>1964</year>
+        <volume>"97"</volume>
+        <part>"undefined"</part>
+        <pages>"16"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="7">
+        <authors>
+          <author name="G. R. Clemo" />
+          <author name="G. A. Swann" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"J. Chem. Soc."</journal>
+        <year>1945</year>
+        <volume>"undefined"</volume>
+        <part>"undefined"</part>
+        <pages>"867"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="8">
+        <authors>
+          <author name="G. Kempter" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Ber."</journal>
+        <year>1964</year>
+        <volume>"97"</volume>
+        <part>"undefined"</part>
+        <pages>"16"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="9">
+        <authors>
+          <author name="D. E. Cohn" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"J.Org. Chem."</journal>
+        <year>1966</year>
+        <volume>"31"</volume>
+        <part>"undefined"</part>
+        <pages>"3852"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="10">
+        <authors>
+          <author name="E. Breitmaier" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Angew. Chem. Int. Ed."</journal>
+        <year>1969</year>
+        <volume>"8"</volume>
+        <part>"undefined"</part>
+        <pages>"765"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="11">
+        <authors>
+          <author name="Q.Shen" />
+          <author name="et al" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Synthesis"</journal>
+        <year>2012</year>
+        <volume>"44"</volume>
+        <part>"undefined"</part>
+        <pages>"389-392"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="12">
+        <authors>
+          <author name="L. Zhang-Hao" />
+          <author name="et al" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Molecules"</journal>
+        <year>2017</year>
+        <volume>"22"</volume>
+        <part>"undefined"</part>
+        <pages>"762"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="13">
+        <authors>
+          <author name="N. P. Selvam" />
+          <author name="C. Saravanan" />
+          <author name="D. Muralidharan" />
+          <author name="P. T. Perumal" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"J. Het. Chem."</journal>
+        <year>2006</year>
+        <volume>"43"</volume>
+        <part>"undefined"</part>
+        <pages>"1379"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="14">
+        <authors>
+          <author name="XC-Y Zhou" />
+          <author name="X Chen" />
+          <author name="L-G Wang" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Synth. Comm."</journal>
+        <year>2018</year>
+        <volume>"48"</volume>
+        <part>"7"</part>
+        <pages>"830-837"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+    </bibliography>
+    <comment />
+    <conditions />
+    <reactions>
+      <reaction id="0">
+        <reactants>
+          <reactant id="0">
+            <smarts>"[NH2:1]-[c:6]:[c:5]-[Cz1:4]=[O:7]"</smarts>
+            <logic>"if alpha to atom 4 is carboxyl group offpath or if alpha to atom 4 is cyano group offpath then kill
+if molecule has at least 1 [O]=[C]-[CH{2-3}] group anywhere or if molecule has at least 1 [NH2]-[c]:[c]-[Cz1]=[O] group offpath then kill
+"</logic>
+          </reactant>
+          <reactant id="1">
+            <smarts>"[O:8]=[C:2]-[CH{2-3}:3]"</smarts>
+            <logic>"if atom 3 is halide group or if atom 3 is O-sulfonate group or if alpha to atom 3 is quaternary center offpath then kill
+if alpha to atom 2 is hetero offpath then {
+   if alpha to atom 2 is oxygen atom offpath and if alpha to atom 2 has exactly 1 hydrogen atom offpath then raise rating slightly
+else kill
+
+}
+foreach alpha to atom 3 offpath defined as Alpha_to_atom_3 in molecule {
+if Alpha_to_atom_3 is carbon atom offpath then {
+   if Alpha_to_atom_3 is carbonyl group or if Alpha_to_atom_3 is carboxyl group then {
+   if the appendage from atom 3 towards Alpha_to_atom_3 are not identical to the appendage from atom 3 towards atom 2  then lower rating strongly
+}
+}
+}
+foreach carbon atom offpath defined as Offpath_carbon in molecule {
+if Offpath_carbon is cyano group offpath then kill
+else {
+   foreach alpha to atom 2  defined as Alpha_to_atom_2 in molecule {
+foreach alpha to atom 3  defined as Alpha_to_atom_3 in molecule {
+if Offpath_carbon != Alpha_to_atom_2  then {
+   if Offpath_carbon != Alpha_to_atom_3  then {
+   if Offpath_carbon is carboxyl group offpath or if Offpath_carbon is carbonyl group offpath then kill
+}
+}
+}
+}
+}
+}
+foreach alpha to atom 2 offpath defined as Alpha_to_atom_2 in molecule {
+if Alpha_to_atom_2 is carbon atom then {
+   if Alpha_to_atom_2 has at least 2 hydrogen atom and if the appendage from atom 2 towards Alpha_to_atom_2 are not identical to the appendage from atom 2 towards atom 3  then lower rating strongly
+}
+}
+if molecule has at least 1 [NH2]-[c]:[c]-[Cz1]=[O] group anywhere then kill
+"</logic>
+          </reactant>
+        </reactants>
+        <agents />
+        <products>
+          <product id="0">
+            <smarts>"[c:6]:1:[c:5]:[cz0:4]:[cH{0-1}:3]:[c:2]:[nH0:1]:1"</smarts>
+            <logic>"undefined"</logic>
+          </product>
+          <product id="1">
+            <smarts>"[OH2:7]"</smarts>
+            <logic>"define it as ghost molecule
+"</logic>
+          </product>
+          <product id="2">
+            <smarts>"[OH2:8]"</smarts>
+            <logic>"define it as ghost molecule
+"</logic>
+          </product>
+        </products>
+      </reaction>
+    </reactions>
+  </transform>
+</transforms>

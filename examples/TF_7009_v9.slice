@@ -1,0 +1,127 @@
+<transforms>
+  <transform id="7009" name="Acylsulfonamide from Sulfonamide and Carboxylic Acid" version="9">
+    <history>
+      <modification id="0" type="created" date="2018-02-16">
+        <authors>
+          <author name="Philip Judson" />
+        </authors>
+      </modification>
+      <modification id="1" type="modified" date="2018-02-20">
+        <authors>
+          <author name="Philip Judson" />
+        </authors>
+      </modification>
+      <modification id="2" type="modified" date="2018-10-25">
+        <authors>
+          <author name="Philip Judson" />
+        </authors>
+      </modification>
+      <modification id="3" type="modified" date="2019-07-17">
+        <authors>
+          <author name="W. Ihlenfeldt" />
+        </authors>
+      </modification>
+      <modification id="4" type="modified" date="2022-11-30">
+        <authors>
+          <author name="Olga Grushin" />
+        </authors>
+      </modification>
+      <modification id="5" type="modified" date="2022-12-02">
+        <authors>
+          <author name="Olga Grushin" />
+        </authors>
+      </modification>
+      <modification id="6" type="modified" date="2023-05-19">
+        <authors>
+          <author name="Olga Grushin" />
+        </authors>
+      </modification>
+      <modification id="7" type="modified" date="2023-08-31">
+        <authors>
+          <author name="Philip Judson" />
+        </authors>
+      </modification>
+      <modification id="8" type="modified" date="2025-06-19">
+        <authors>
+          <author name="Stefi Nouleho" />
+        </authors>
+      </modification>
+    </history>
+    <setup>
+      <yield>"excellent"</yield>
+      <reliability>"good"</reliability>
+      <reputation>"good"</reputation>
+      <homoselectivity>"fair"</homoselectivity>
+      <heteroselectivity>"fair"</heteroselectivity>
+      <orientationalSelectivity>"N.A."</orientationalSelectivity>
+      <conditionFlexibility>"fair"</conditionFlexibility>
+      <thermodynamics>"good"</thermodynamics>
+    </setup>
+    <bibliography />
+    <comment />
+    <conditions />
+    <reactions>
+      <reaction id="0">
+        <reactants>
+          <reactant id="0">
+            <smarts>"[OH1:7]-[Cz2:5]=[O:6]"</smarts>
+            <logic>"if molecule is anhydride group anywhere or if molecule is acid halide group anywhere or if molecule is [Cl,Br,I]-[Sz3](=[O])=[O] group anywhere then kill
+if molecule has alcohol group anywhere or if molecule has primary amine group anywhere or if molecule has thiol group anywhere or if molecule has secondary amine group anywhere or if molecule has carboxylic acid group offpath or if molecule has oxime group anywhere then lower rating strongly
+so_count = 0
+foreach sulfur atom offpath defined as sulfur_atom in molecule {
+so_count_local = 0
+foreach nitrogen alpha to sulfur_atom  defined as nitro_atom in molecule {
+if nitro_atom has at least 1 hydrogen atom then {
+   foreach oxygen alpha to sulfur_atom  defined as oxy_atom in molecule {
+if bond between sulfur_atom and oxy_atom is double bond then so_count_local + 1
+}
+}
+}
+if so_count_local > 1  then so_count + 1
+}
+if so_count > 0  then lower rating strongly
+"</logic>
+          </reactant>
+          <reactant id="1">
+            <smarts>"[NH2:4]-[S:1](=[O:2])=[O:3]"</smarts>
+            <logic>"if molecule is anhydride group anywhere or if molecule is acid halide group anywhere or if molecule is [Cl,Br,I]-[Sz3](=[O])=[O] group anywhere then kill
+if molecule has alcohol group anywhere or if molecule has primary amine group anywhere or if molecule has thiol group anywhere or if molecule has secondary amine group anywhere or if molecule has carboxylic acid group offpath or if molecule has oxime group anywhere then lower rating strongly
+foreach alpha to atom 1 offpath defined as alpha_to_atom1 in molecule {
+foreach alpha to alpha_to_atom1 offpath defined as alpha_to_alpha_to_atom1 in molecule {
+if alpha_to_alpha_to_atom1 is hetero then {
+   if alpha_to_atom1 is not aromatic then kill
+}
+}
+}
+so_count = 0
+foreach sulfur atom offpath defined as sulfu_atom in molecule {
+so_count_local = 0
+foreach nitrogen alpha to sulfu_atom offpath defined as nitro_atom in molecule {
+if nitro_atom has at least 1 hydrogen atom then {
+   foreach oxygen alpha to sulfu_atom offpath defined as oxy_atom in molecule {
+if bond between sulfu_atom and oxy_atom is double bond then so_count_local + 1
+}
+}
+}
+if so_count_local > 1  then so_count + 1
+}
+if so_count > 0  then lower rating strongly
+"</logic>
+          </reactant>
+        </reactants>
+        <agents />
+        <products>
+          <product id="0">
+            <smarts>"[O:6]=[Cz2:5]-[NH1:4]-[S:1](=[O:2])=[O:3]"</smarts>
+            <logic>"undefined"</logic>
+          </product>
+          <product id="1">
+            <smarts>"[OH2:7]"</smarts>
+            <logic>"define it as ghost molecule
+"</logic>
+          </product>
+        </products>
+      </reaction>
+    </reactions>
+  </transform>
+</transforms>

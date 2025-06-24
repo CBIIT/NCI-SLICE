@@ -1,0 +1,402 @@
+<transforms>
+  <transform id="6005" name="Suzuki-Miyaura Cross-Coupling (Bromo)" version="9">
+    <history>
+      <modification id="0" type="modified" date="2022-11-24">
+        <authors>
+          <author name="Philip Judson" />
+        </authors>
+      </modification>
+      <modification id="1" type="modified" date="2022-12-01">
+        <authors>
+          <author name="Olga Grushin" />
+        </authors>
+      </modification>
+      <modification id="2" type="modified" date="2022-12-06">
+        <authors>
+          <author name="Olga Grushin" />
+        </authors>
+      </modification>
+      <modification id="3" type="created" date="2023-05-11">
+        <authors>
+          <author name="OlgaGrushin" />
+        </authors>
+      </modification>
+      <modification id="4" type="created" date="2023-06-16">
+        <authors>
+          <author name="Olga Grushin" />
+        </authors>
+      </modification>
+      <modification id="5" type="modified" date="2024-05-29">
+        <authors>
+          <author name="Stefi Nouleho" />
+        </authors>
+      </modification>
+      <modification id="6" type="modified" date="2025-06-19">
+        <authors>
+          <author name="Stefi Nouleho" />
+        </authors>
+      </modification>
+    </history>
+    <setup>
+      <yield>"very good"</yield>
+      <reliability>"good"</reliability>
+      <reputation>"very good"</reputation>
+      <homoselectivity>"poor"</homoselectivity>
+      <heteroselectivity>"good"</heteroselectivity>
+      <orientationalSelectivity>"good"</orientationalSelectivity>
+      <conditionFlexibility>"fair"</conditionFlexibility>
+      <thermodynamics>"very good"</thermodynamics>
+    </setup>
+    <bibliography>
+      <reference id="0">
+        <authors>
+          <author name="L. Kürti and B. Czakó" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Strategic Applications of Named Reactions in Organic Synthesis"</journal>
+        <year>2005</year>
+        <volume>"undefined"</volume>
+        <part>"undefined"</part>
+        <pages>"448-449"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"Elsevier"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="1">
+        <authors>
+          <author name="S. Kotha, K. Lahiri, and D. Kashinath" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Tetrahedron"</journal>
+        <year>2002</year>
+        <volume>"58"</volume>
+        <part>"undefined"</part>
+        <pages>"9633-9695"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="2">
+        <authors>
+          <author name="N. Miyaura and A. Suzuki" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Chem. Rev."</journal>
+        <year>1995</year>
+        <volume>"95"</volume>
+        <part>"undefined"</part>
+        <pages>"2457-2483"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="3">
+        <authors>
+          <author name="A. Suzuki" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"J. Organometal. Chem."</journal>
+        <year>1999</year>
+        <volume>"576"</volume>
+        <part>"undefined"</part>
+        <pages>"147-168"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="4">
+        <authors>
+          <author name="A. Bahl et al" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Angew. Chem. Int. Ed. Engl."</journal>
+        <year>1995</year>
+        <volume>"34"</volume>
+        <part>"undefined"</part>
+        <pages>"1485"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="5">
+        <authors>
+          <author name="M. Beller et al" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Angew. Che. Int. Ed. Engl."</journal>
+        <year>1995</year>
+        <volume>"34"</volume>
+        <part>"undefined"</part>
+        <pages>"1848"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="6">
+        <authors>
+          <author name="J. W., Benbow and B. L. Maitinez" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Tet. Lett."</journal>
+        <year>1996</year>
+        <volume>"49"</volume>
+        <part>"undefined"</part>
+        <pages>"8829"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="7">
+        <authors>
+          <author name="N. G, Anderson, S. P. Maddaford, and B. A. Keay" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"J. Org. Chem."</journal>
+        <year>1996</year>
+        <volume>"61"</volume>
+        <part>"undefined"</part>
+        <pages>"9556"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="8">
+        <authors>
+          <author name="Y. Satof, C. Gude, K. Chan, and F. Fiorooznia." />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Tet. Lett."</journal>
+        <year>1997</year>
+        <volume>"38"</volume>
+        <part>"undefined"</part>
+        <pages>"7645"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="9">
+        <authors>
+          <author name="M. B. Goldfinger, K. B. Crawford, and T. M. Swager" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"J. Amer. Chem. Soc."</journal>
+        <year>1997</year>
+        <volume>"119"</volume>
+        <part>"undefined"</part>
+        <pages>"4578"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="10">
+        <authors>
+          <author name="M. B. Goldfinger, K. B. Crawford, and T. M. Swager" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"J. Org. Chem."</journal>
+        <year>1998</year>
+        <volume>"63"</volume>
+        <part>"undefined"</part>
+        <pages>"1676"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="11">
+        <authors>
+          <author name="C. K. Chang and N. Bag" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"J. Org. Chem."</journal>
+        <year>1995</year>
+        <volume>"60"</volume>
+        <part>"undefined"</part>
+        <pages>"7030"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="12">
+        <authors>
+          <author name="H Zhang and K. S. Chan" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Tet. Lett."</journal>
+        <year>1996</year>
+        <volume>"37"</volume>
+        <part>"undefined"</part>
+        <pages>"1043"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="13">
+        <authors>
+          <author name="K. Jones, M. Keenan, and F. Hibbert" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Synlett."</journal>
+        <year>1996</year>
+        <volume>"undefined"</volume>
+        <part>"undefined"</part>
+        <pages>"509"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="14">
+        <authors>
+          <author name="S. Toyota et al" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Tet. Lett."</journal>
+        <year>1998</year>
+        <volume>"39"</volume>
+        <part>"undefined"</part>
+        <pages>"2697"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="15">
+        <authors>
+          <author name="H. Zhang, F. Xue, T. C. W. Mark, and K. S. Chang" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"J. Org. Chem."</journal>
+        <year>1996</year>
+        <volume>"61"</volume>
+        <part>"undefined"</part>
+        <pages>"8002"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="16">
+        <authors>
+          <author name="S. Piettre et all" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"J. Med. Chem."</journal>
+        <year>1997</year>
+        <volume>"40"</volume>
+        <part>"undefined"</part>
+        <pages>"4208"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+    </bibliography>
+    <comment />
+    <conditions>
+      <condition id="0">
+        <step />
+        <reagents>
+          <reagent id="0">"Pd(OAc)2/K2CO3/Bu4N+Br-"</reagent>
+        </reagents>
+        <solvents />
+        <temperatures />
+        <times />
+        <informations />
+      </condition>
+      <condition id="1">
+        <step />
+        <reagents>
+          <reagent id="0">"Ni(Et3N)2Cl2/K3PO4"</reagent>
+        </reagents>
+        <solvents />
+        <temperatures />
+        <times />
+        <informations />
+      </condition>
+    </conditions>
+    <reactions>
+      <reaction id="0">
+        <reactants>
+          <reactant id="0">
+            <smarts>"[OH1:5]-[B:3](-[c:2])-[OH1:4]"</smarts>
+            <logic>"if molecule is iodide group offpath or if molecule is amine group anywhere then kill
+if molecule is bromide group anywhere or if molecule is chloride group anywhere then lower rating strongly
+foreach sulfur atom anywhere defined as Sulfur_atom in molecule {
+foreach alpha to Sulfur_atom anywhere defined as alpha_to_sulfur_atome in molecule {
+if alpha_to_sulfur_atome is halogen then kill
+}
+}
+Got_interfering_boron = false
+foreach boron atom offpath defined as offpath_boron in molecule {
+foreach alpha to offpath_boron offpath defined as alpha_to_offpath_boron in molecule {
+if alpha_to_offpath_boron is carbon atom then Got_interfering_boron = true
+}
+}
+if Got_interfering_boron == true  then lower rating strongly
+"</logic>
+          </reactant>
+          <reactant id="1">
+            <smarts>"[I:6]-[c:1]"</smarts>
+            <logic>"if molecule is iodide group offpath or if molecule is amine group anywhere then kill
+if molecule is bromide group anywhere or if molecule is chloride group anywhere then lower rating strongly
+Got_hetero_atom = false
+Got_w_bond = false
+has_aromatic_ring = false
+Current_ring = the aromatic ring of size 6 containing atom 1
+foreach atom  defined as ring_atom in Current_ring {
+has_aromatic_ring = true
+if ring_atom != atom 1  then {
+   if ring_atom is hetero then Got_hetero_atom = true
+else if ring_atom has at least 1 withdrawing bond then Got_w_bond = true
+
+}
+}
+if has_aromatic_ring == true  then {
+   if Got_hetero_atom == false  then {
+   if Got_w_bond == false  then lower rating slightly
+}
+}
+foreach sulfur atom anywhere defined as Sulfur_atom in molecule {
+foreach alpha to Sulfur_atom anywhere defined as alpha_to_sulfur_atom in molecule {
+if alpha_to_sulfur_atom is halogen then kill
+}
+}
+Got_interfering_boron = false
+foreach boron atom offpath defined as offpath_boron in molecule {
+foreach alpha to offpath_boron offpath defined as alpha_to_offpath_boron in molecule {
+if alpha_to_offpath_boron is carbon atom then Got_interfering_boron = true
+}
+}
+if Got_interfering_boron == true  then lower rating strongly
+"</logic>
+          </reactant>
+        </reactants>
+        <agents />
+        <products>
+          <product id="0">
+            <smarts>"[I:6]-[B:3](-[O:5])-[O:4]"</smarts>
+            <logic>"define it as ghost molecule
+"</logic>
+          </product>
+          <product id="1">
+            <smarts>"[c:2]-[c:1]"</smarts>
+            <logic>"undefined"</logic>
+          </product>
+        </products>
+      </reaction>
+    </reactions>
+  </transform>
+</transforms>

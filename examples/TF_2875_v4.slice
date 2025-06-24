@@ -1,0 +1,109 @@
+<transforms>
+  <transform id="2875" name="Copper[I]-catalyzed azide-alkyne cycloaddition" version="4">
+    <history>
+      <modification id="0" type="created" date="2025-05-08">
+        <authors>
+          <author name="Olga Grushin" />
+        </authors>
+      </modification>
+      <modification id="1" type="modified" date="2025-06-10">
+        <authors>
+          <author name="Olga Grushin" />
+        </authors>
+      </modification>
+    </history>
+    <setup>
+      <yield>"undefined"</yield>
+      <reliability>"undefined"</reliability>
+      <reputation>"undefined"</reputation>
+      <homoselectivity>"undefined"</homoselectivity>
+      <heteroselectivity>"undefined"</heteroselectivity>
+      <orientationalSelectivity>"undefined"</orientationalSelectivity>
+      <conditionFlexibility>"undefined"</conditionFlexibility>
+      <thermodynamics>"undefined"</thermodynamics>
+    </setup>
+    <bibliography>
+      <reference id="0">
+        <authors>
+          <author name="E. Haldón" />
+          <author name="M. Carmen Nicasio" />
+          <author name="P. J. Pérez" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Org. Biomol. Chem."</journal>
+        <year>2015</year>
+        <volume>"13"</volume>
+        <part>"undefined"</part>
+        <pages>"9528-9550"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="1">
+        <authors>
+          <author name="C.W. Tornoe" />
+          <author name="C. Christensen" />
+          <author name="M. Meldal" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"J. Org. Chem."</journal>
+        <year>2002</year>
+        <volume>"67"</volume>
+        <part>"undefined"</part>
+        <pages>"3057-3064"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+      <reference id="2">
+        <authors>
+          <author name="V.V. Rostovtsev et al" />
+        </authors>
+        <title>"undefined"</title>
+        <journal>"Angew. Chem. Int. Ed."</journal>
+        <year>2002</year>
+        <volume>"41"</volume>
+        <part>"undefined"</part>
+        <pages>"2596-2599"</pages>
+        <link>"undefined"</link>
+        <editor>"undefined"</editor>
+        <publisher>"undefined"</publisher>
+        <city>"undefined"</city>
+      </reference>
+    </bibliography>
+    <comment />
+    <conditions />
+    <reactions>
+      <reaction id="0">
+        <reactants>
+          <reactant id="0">
+            <smarts>"[N-1:4]=[N+1:3]=[N:1]-[#6:2]"</smarts>
+            <logic>"if atom 2 is triply then kill
+if atom 2 is not in an aromatic ring then {
+   foreach alpha to atom 2 offpath defined as alpha_to_atom_2 in molecule {
+if alpha_to_atom_2 is hetero offpath and if bond between atom 2 and alpha_to_atom_2 is double bond then kill
+}
+}
+"</logic>
+          </reactant>
+          <reactant id="1">
+            <smarts>"[CH1:6]#[CH0:5]"</smarts>
+            <logic>"foreach alpha to atom 5 offpath defined as alpha_to_atom_5 in molecule {
+if alpha_to_atom_5 is hetero offpath and if alpha_to_atom_5 has at least 1 hydrogen atom then kill
+}
+"</logic>
+          </reactant>
+        </reactants>
+        <agents />
+        <products>
+          <product id="0">
+            <smarts>"[C:2]-[n:1]:1:[n:3]:[n:4]:[cH0:5]:[cH1:6]:1"</smarts>
+            <logic>"undefined"</logic>
+          </product>
+        </products>
+      </reaction>
+    </reactions>
+  </transform>
+</transforms>

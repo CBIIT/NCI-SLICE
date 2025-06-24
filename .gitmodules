@@ -1,0 +1,3 @@
+[submodule "slice-gui"]
+	path = slice-gui
+	url = https://github.com/incicadd/i-slice-gui.git

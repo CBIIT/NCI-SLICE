@@ -1,6 +1,6 @@
 # SLICE (SMARTS and Logic In ChEmistry): Fast generation of molecules, using advanced chemical synthesis logic and modern coding style
 
-This reposirtory contains 2 folders :
+This repository contains 2 folders :
 
 
 ***********

@@ -1,4 +1,4 @@
-#SLICE (SMARTS and Logic In ChEmistry): Fast generation of molecules, using advanced chemical synthesis logic and modern coding style
+# SLICE (SMARTS and Logic In ChEmistry): Fast generation of molecules, using advanced chemical synthesis logic and modern coding style
 
 This reposirtory contains 2 folders :
 
@@ -9,7 +9,7 @@ This reposirtory contains 2 folders :
 
 This folder contains four transforms TF 2201, TF 2875, TF 6005 and TF 7009
 
-- BBS_Enamine_284k.tsv : The set of Enamine BBS of 284K
+- BBS_Enamine_284k.tsv  : The set of Enamine BBS of 284K
 - block1.tsv : target compound used for TF 7009
   
 - For each transform XXXX, there is :

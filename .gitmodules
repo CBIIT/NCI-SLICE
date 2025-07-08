@@ -4,3 +4,6 @@
 [submodule "slice-engine"]
 	path = slice-engine
 	url = https://github.com/incicadd/i-slice-engine.git
+[submodule "SLICE-public"]
+	path = SLICE-public
+	url = https://github.com/tarasovan/SLICE-public.git
